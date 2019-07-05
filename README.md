@@ -1,5 +1,6 @@
 # Algorithm
 
-![./Vovo_Juju.png]
+![image](./Vovo_Juju.png)
 
-Trying to write a few types of code in C++
+Trying to write different types of algorithms at beginning with C++.
+Just for fun.
