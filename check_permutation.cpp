@@ -18,12 +18,12 @@ int compare(string string1, string string2){
 }
 
 int main (){
-
+//Given two strings, see if they are permutation of each other
  string string1  = "dog";
  string string2  = "god";
 
- int resultado = compare(string1, string2);
+ int result = compare(string1, string2);
 
-cout << resultado;
+cout << result;
 return 0;
 }

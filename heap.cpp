@@ -7,17 +7,17 @@ using namespace std;
 void MAX_heap(vector<int> &max_heap, int size, int pos){
   int e, d, maior;
   pos+=1;
-   //Dada a posicao do pai, pega os valores correspondentes dos filhos
+ //Given the "father" position, take the children values
    e = 2*pos;
    d = 2*pos + 1;
    e--; d--; pos--;
   // cout << pos << " " << e << " " << d << endl;
-  // cout << "Esquerda :" <<max_heap[e] << " Direita : "<< max_heap[d] << " Pos : "<<max_heap[pos] << endl;
+  // cout << "Left :" <<max_heap[e] << " Right : "<< max_heap[d] << " Pos : "<<max_heap[pos] << endl;
    if(e <= size && max_heap[e] > max_heap[pos]){
      maior = e;
    }
-   else maior = pos; //Apenas mantem que o maior continua sendo a posicao pai
-   if(d <= size && max_heap[d] > max_heap[maior]) // Comparado o filho da esquerda e o pai basta apenas ver o maior
+   else maior = pos; //The higher value still at the "father" postion
+   if(d <= size && max_heap[d] > max_heap[maior]) //Compare children from the left and father to see who is the higher value
     maior = d;
     if(maior != pos){
       swap(max_heap[pos],max_heap[maior]);
@@ -34,7 +34,7 @@ int main(){
   vector <int> max_heap;
   int i;
   for(i = 0; i < 7; i++){
-    //Push inicia na posicao 0 da funcao
+    //Push starts at the 0 of the function
     max_heap.push_back(i);
   }
 

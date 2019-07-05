@@ -30,6 +30,7 @@ int binary_search_int(int a[], int size, int ele){
 
 
 int main(){
+    // A vector with integers numbers
     int a[] = {1,5,8,11,15,19,24,80,120};
     int size = sizeof a / sizeof a[0];
     std :: cout << binary_search_int(a,size, 9);
