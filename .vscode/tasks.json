@@ -5,7 +5,7 @@
         "label": "build hello world",
         "type": "shell",
         "command": "g++",
-        "args": ["-g", "-o", "helloworld", "division_2.cpp"],
+        "args": ["-g", "-o", "a", "first_ocurrency.cpp"],
         "group": {
           "kind": "build",
           "isDefault": true
