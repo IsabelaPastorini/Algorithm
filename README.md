@@ -4,7 +4,7 @@
 
 
 Trying to write different types of algorithms at beginning with C++ and learning how to use GitHub.
-- [ ] Arrays
+- [ X ] Arrays
 - [ ] String
 - [ ] Linked List
 - [ ] Stack and Queue
@@ -18,4 +18,5 @@ Trying to write different types of algorithms at beginning with C++ and learning
 - [ ] Divide and Conquer
 - [ ] Backtracking
 - [ ] Bit Magic
+
 Just for fun.
