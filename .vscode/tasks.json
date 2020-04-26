@@ -5,7 +5,7 @@
         "label": "build hello world",
         "type": "shell",
         "command": "g++",
-        "args": ["-g", "-o", "a", "length_last_world.cpp"],
+        "args": ["-g", "-o", "a", "roman_to_integer.cpp"],
         "group": {
           "kind": "build",
           "isDefault": true
